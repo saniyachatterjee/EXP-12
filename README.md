@@ -54,7 +54,7 @@ int main()
 }
 ```
 O/P:
-
+![Screenshot 2024-09-02 190500](https://github.com/user-attachments/assets/e84ce633-926d-4553-b17b-73303a442361)
 
 2. Defining constructor outside the class
 ```
@@ -89,6 +89,7 @@ int main()
 }
 ```
 O/P:
+![Screenshot 2024-09-02 190626](https://github.com/user-attachments/assets/432dd209-599b-4e38-8701-e144a1fb48b8)
 
 3. Default Constructor
 ```
@@ -121,6 +122,7 @@ d1.display();
 }
 ```
 O/P:
+![Screenshot 2024-09-02 190808](https://github.com/user-attachments/assets/9a3ac710-ec7f-4d4b-99a5-9c0ee8a49ecf)
 
 4. Parameterized Constructor
 ```
@@ -144,6 +146,7 @@ Num n1(22,13);
 }
 ```
 O/P:
+![Screenshot 2024-09-02 190912](https://github.com/user-attachments/assets/49263b68-24bd-4d56-821c-1740be9c2ec6)
 
 5. Copy Constructor 
 ```
@@ -188,6 +191,7 @@ int main()
 }
 ```
 O/P:
+![Screenshot 2024-09-02 191709](https://github.com/user-attachments/assets/ca290f39-4cb0-4e44-a919-9059e9248dd9)
 
 6. Deconstructor
 ```
@@ -216,6 +220,8 @@ return 0;
 }
 ```
 O/P:
+![Screenshot 2024-09-02 192136](https://github.com/user-attachments/assets/8d25e9ce-931c-4615-9f9f-f70878454f9a)
+
 
 # Conclusion 
 The provided codes demonstrate how to use various types of constructors and destructors in C++. The first two examples use default constructors defined both inside and outside the class to initialize member variables when an object is created. The third example shows a parameterized constructor that accepts arguments and performs specific operations. The copy constructor example demonstrates how to initialize a new object with the values of an existing object, which simplifies object copying. Finally, the destructor example demonstrates how destructors automatically handle source removal when objects leave scope. These ideas are essential for managing the lifecycle of objects in C++.
